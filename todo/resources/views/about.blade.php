@@ -6,12 +6,6 @@
     <title>Laravel</title>
 </head>
 <body>
-<h1>Welcome to Laravel</h1>
-<p>Salut {{$nom}}!</p>
-<ul>
-    @foreach($taches as $tache)
-    <li>{{$tache}}</li>
-    @endforeach
-</ul>
+<h1>À propos</h1>
 </body>
 </html>
