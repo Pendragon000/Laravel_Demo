@@ -120,6 +120,8 @@
       <excludeFolder url="file://$MODULE_DIR$/todo/vendor/tijsverkoyen/css-to-inline-styles" />
       <excludeFolder url="file://$MODULE_DIR$/todo/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/todo/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/todo/storage/app" />
+      <excludeFolder url="file://$MODULE_DIR$/todo/storage/framework" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
