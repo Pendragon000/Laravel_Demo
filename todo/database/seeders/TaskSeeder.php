@@ -1,21 +1,20 @@
 <?php
 
 namespace Database\Seeders;
-
-use App\Models\User;
 use App\Models\Task;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Str;
 
-class DatabaseSeeder extends Seeder
+class TaskSeeder extends Seeder
 {
-    use WithoutModelEvents;
-
     /**
-     * Seed the application's database.
+     * Run the database seeds.
      */
     public function run(): void
     {
-        Task::factory()->count(20)->create();
+        $task = new Task();
+        $task->title = Str::random(10);
+        $task->save();
     }
 }
